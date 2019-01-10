@@ -1,37 +1,28 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Page d'accueil</title>
-  <link rel="stylesheet" href="page_accueil.css">
-</head>
-<body>
-<h1>Page d'accueil</h1>
 
-<p>------------------------------</p>
+	<head>
+		<meta charset="utf-8">
+		<title>Page d'accueil</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
 
-<form method="POST" action="creation_groupe.php">
-<p><INPUT TYPE="submit" VALUE="Créer un groupe"></p>
-</form>
+	<body>
 
-<p>------------------------------</p>
+		<a href="formulaire_connexion.php" class="bouton"><input type="button" value="Se déconnecter"></a>
 
-<form method="POST" action="consultation_des_groupes.php">
-<p><INPUT TYPE="submit" VALUE="Consulter ses groupes"></p>
-</form>
+		<h1>Page d'accueil</h1>
+		
+		<section>
+		<a href="creation_groupe.php"> <input type="button" value="Créer un groupe" style='width:300px; height:80px'></a>
+		<br><br>
+		<a href="consultation_des_groupes.php"> <input type="button" value="Consulter ses groupes" style='width:300px; height:80px'></a>
+		<br><br>
+		<a href="consultation_des_cadeaux.php"> <input type="button" value="Consulter ses cadeaux" style='width: 300px; height:80px'></a>
+		</section>
+		
+	</body>
 
-<p>------------------------------</p>
-
-<form method="POST" action="consultation_des_cadeaux.php">
-<p><INPUT TYPE="submit" VALUE="Consulter ses cadeaux"></p>
-</form>
-
-<p>------------------------------</p>
-
-<form method="POST" action="formulaire_connexion.php">
-<p><INPUT TYPE="submit" VALUE="Se déconnecter"></p>
-</form>
-
-</body>
 </html>
 
